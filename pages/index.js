@@ -2,9 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-import Header from "../components/Header";
-import SideInfos from "../components/SideInfos";
-import Content from "../components/Content";
+import Header from "../components/Header/Header";
+import SideInfos from "../components/SideInfos/SideInfos";
+import Content from "../components/Content/Content";
 
 export default function Home() {
   return (
