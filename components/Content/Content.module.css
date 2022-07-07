@@ -1,8 +1,28 @@
 .container {
   background-color: whitesmoke;
   color: #222;
-  width: 70%;
+  width: 80%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin: 3rem;
+}
+
+.buttonWrapper button {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 5rem;
+  box-shadow: 3px 3px 7px #f33;
+}
+
+.buttonWrapper button:hover {
+  font-weight: 600;
+  box-shadow: 3px 3px 7px #d11;
 }
