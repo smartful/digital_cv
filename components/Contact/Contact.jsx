@@ -4,6 +4,7 @@ import styles from "./Contact.module.css";
 const Contact = () => {
   return (
     <div className={styles.container}>
+      <h3>Contact</h3>
       <ul>
         <li>Name : Mike Field</li>
         <li>E-Mail : mike_field@machin.com</li>
