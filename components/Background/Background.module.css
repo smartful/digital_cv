@@ -1,0 +1,14 @@
+.school {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 2px 3px 7px #333;
+  width: 90%;
+  border-radius: 1rem;
+}
+
+.institution {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: baseline;
+}

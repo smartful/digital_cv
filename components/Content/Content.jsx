@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Background from "../Background/Background";
+import Experiences from "../Experiences/Experiences";
 import styles from "./Content.module.css";
 
 const content = {
@@ -26,6 +28,10 @@ const Content = () => {
         >
           Expériences
         </button>
+      </div>
+      <div className={styles.contentWrapper}>
+        {display === content.background && <Background />}
+        {display === content.experiences && <Experiences />}
       </div>
     </div>
   );

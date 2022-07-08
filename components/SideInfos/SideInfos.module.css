@@ -2,7 +2,7 @@
   background-color: #222;
   color: whitesmoke;
   width: 20%;
-  min-height: 100vh;
+  min-height: 100vmax;
   display: flex;
   flex-direction: column;
 }

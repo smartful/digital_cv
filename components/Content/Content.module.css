@@ -2,7 +2,7 @@
   background-color: whitesmoke;
   color: #222;
   width: 80%;
-  min-height: 100vh;
+  min-height: 100vmax;
   display: flex;
   flex-direction: column;
 }
@@ -25,4 +25,8 @@
 .buttonWrapper button:hover {
   font-weight: 600;
   box-shadow: 3px 3px 7px #d11;
+}
+
+.contentWrapper {
+  margin-left: 3rem;
 }

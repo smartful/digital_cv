@@ -1,0 +1,41 @@
+.experience {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 2px 3px 7px #333;
+  width: 90%;
+  border-radius: 1rem;
+}
+
+.badge {
+  background-color: #222;
+  color: white;
+  width: auto;
+  height: 1.5rem;
+  font-size: 14px;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  border-radius: 6rem;
+  margin-left: 1.5rem;
+}
+
+.tech {
+  background-color: rgba(251, 192, 192, 0.2);
+  padding: 0.5rem;
+  font-weight: 600;
+  border-radius: 3rem;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: baseline;
+}
