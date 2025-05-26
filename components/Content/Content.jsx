@@ -19,12 +19,14 @@ const Content = () => {
     <div className={styles.container}>
       <div className={styles.buttonWrapper}>
         <button
+          className={`${styles.button} ${display === content.background ? styles.active : ""}`}
           onClick={() => setDisplay(content.background)}
           disabled={display === content.background ? true : false}
         >
           Formation
         </button>
         <button
+          className={`${styles.button} ${display === content.experiences ? styles.active : ""}`}
           onClick={() => setDisplay(content.experiences)}
           disabled={display === content.experiences ? true : false}
         >

@@ -1,3 +1,4 @@
+import "../styles/variables.css";
 import "../styles/globals.css";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header/Header";

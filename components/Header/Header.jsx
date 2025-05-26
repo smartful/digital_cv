@@ -11,6 +11,7 @@ const Header = () => {
           alt="Photo de profil"
           width={100}
           height={100}
+          unoptimized
         />
       </div>
       <h1 className={styles.title}>Développeur Frontend React JS</h1>

@@ -7,7 +7,7 @@
 }
 
 .badge {
-  background-color: #222;
+  background-color: var(--primary);
   color: white;
   width: auto;
   height: 1.5rem;

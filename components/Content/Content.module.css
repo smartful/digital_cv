@@ -9,22 +9,44 @@
 
 .buttonWrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   gap: 2rem;
   margin: 3rem;
 }
 
-.buttonWrapper button {
-  width: 8rem;
-  height: 3rem;
-  border-radius: 5rem;
-  box-shadow: 3px 3px 7px #f33;
+/* style générique */
+.button {
+  cursor: pointer;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  border: 2px solid var(--primary);
+  background: var(--bg);
+  color: var(--text-on-light);
+  font-weight: 500;
+  transition: all 0.2s ease;
+  position: relative;
 }
 
-.buttonWrapper button:hover {
-  font-weight: 600;
-  box-shadow: 3px 3px 7px #d11;
+/* état au survol */
+.button:not(.active):hover {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .35);
+  transform: translateY(-2px);
+}
+
+/* bouton actif / désactivé */
+.active,
+.button:disabled {
+  background: var(--primary);
+  color: #fff;
+  cursor: default;
+  box-shadow: none;
+}
+
+/* effet d’enfoncement quand on clique */
+.btn:active:not(.active) {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
 }
 
 .contentWrapper {
