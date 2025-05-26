@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from "react";
 import Background from "../Background/Background";
 import Experiences from "../Experiences/Experiences";
