@@ -1,7 +1,10 @@
 {
-  "name": "cv",
-  "version": "0.2.0",
-  "private": true,
+  "name": "digital-cv",
+  "version": "1.0.0",
+  "description": "Un CV moderne en ligne – une URL à bookmarker plutôt qu'un PDF à oublier.",
+  "author": "Rémi Matthieu RODRIGUES",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -16,5 +19,20 @@
   "devDependencies": {
     "eslint": "^9.27.0",
     "@next/eslint-plugin-next": "^15.3.2"
-  }
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartful/digital_cv"
+  },
+  "keywords": [
+    "cv",
+    "portfolio",
+    "nextjs",
+    "react",
+    "resume",
+    "modern-cv"
+  ]
 }
