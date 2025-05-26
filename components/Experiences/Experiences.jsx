@@ -19,7 +19,7 @@ const Experiences = () => {
           Believe est une entreprise française spécialisée dans l’accompagnement
           des artistes et labels.
           <br />
-          Tribe Supply Chain => Squad Content Ingestion
+          Tribe Supply Chain `{'=>'}` Squad Content Ingestion
           <br />
           Refonte de l'outil interne VOOL utilisé par les Content Managers pour
           valider les albums.
@@ -40,10 +40,10 @@ const Experiences = () => {
           <h3>janvier 2020 - novembre 2021</h3>{" "}
           <div className={styles.badge}>1 an et 6 mois</div>
         </div>
-        <p>
+        <div>
           Direction Numérique
           <br />
-          Tribe Edito => Squad Acquisition
+          Tribe Edito `{'=>'}` Squad Acquisition
           <br />
           <details>
             <summary>Activités</summary>
@@ -71,7 +71,7 @@ const Experiences = () => {
               </li>
             </ul>
           </details>
-        </p>
+        </div>
         <h5>Environnement technique</h5>
         <div className={styles.tech}>JavaScript, React.js, Node.js</div>
       </div>
