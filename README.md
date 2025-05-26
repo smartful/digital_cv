@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📄 Digital CV
 
-## Getting Started
+*Parce que les CVs c'est so 2010 – donnons aux recruteurs une URL qu'ils peuvent ajouter à leurs favoris.*
 
-First, run the development server:
+---
+
+## La stack technique
+
+| Domaine  | Stack |
+|-----|-------|
+| Framework | **Next .js 15** (App Router, React Server Components) |
+| Front-end | **React 19**, CSS Modules |
+| Tooling   | Node ≥ 18.18 (20 LTS recommended), ESLint 9, Turbopack |
+| Hosting   | Vercel / Netlify / any static-friendly platform |
+
+---
+
+## Pour démarrer
 
 ```bash
+# 1 Cloner le projet
+git clone https://github.com/smartful/digital_cv.git
+cd digital-cv
+
+# 2 Installation des dépendances
+npm install
+
+# 3 Faire tourner en local : http://localhost:3000
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Build pour la mise en prod:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+pnpm build
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
