@@ -1,0 +1,174 @@
+[
+  {
+    "company": "MindEd Tech",
+    "location": "Levallois-Perret, Île-de-France, France",
+    "role": "Développeur front-end",
+    "period": "mai 2024 – août 2024",
+    "duration": "4 mois",
+    "summary": "Startup qui booste la santé mentale des kids pour qu’ils cartonnent à l’école.",
+    "missions": [
+      "Migration du projet LISA → LISA v2",
+      "Migration des composants Chakra UI → Mantine",
+      "Prise en main du headless CMS Directus"
+    ],
+    "tech": ["React", "Mantine", "Directus"]
+  },
+  {
+    "company": "WAPSI-DIGITAL",
+    "location": "Paris, Île-de-France, France",
+    "role": "Lead dev front-end",
+    "period": "juin 2023 – mars 2024",
+    "duration": "10 mois",
+    "summary": "ESN, missions multi-clients et une appli mobile maison.",
+    "missions": [
+      "Interventions chez Action Contre la Faim & Blissim",
+      "Développement de l’app mobile Wunite",
+      "Encadrement de la stack front"
+    ],
+    "tech": ["React JS", "Next JS", "Swift", "SwiftUI"]
+  },
+  {
+    "company": "Spectral TMS – AR Technician Assistant",
+    "location": "Paris, Île-de-France, France",
+    "role": "Développeur front-end",
+    "period": "mars 2023 – mai 2023",
+    "duration": "3 mois",
+    "summary": "Front React sur Spectral Studio (assistant AR pour techniciens).",
+    "missions": ["Développement de nouvelles vues & composants React"],
+    "tech": ["React JS", "TypeScript", "Ant Design", "React Router", "React Query"]
+  },
+  {
+    "company": "MOBILE MEDIA COM",
+    "location": "Paris, Île-de-France, France",
+    "role": "Développeur front-end",
+    "period": "septembre 2022 – mars 2023",
+    "duration": "7 mois",
+    "summary": "Seul dev front de la boîte, service VOD Playzer & déclinaison Android TV.",
+    "missions": [
+      "Feature dev & bug-fix sur Playzer (clips musicaux)",
+      "Portage Android TV (Bouygues BBOX) – hybride WebView / native",
+      "Adaptation Kotlin côté TV"
+    ],
+    "tech": ["JavaScript (ES6+)", "React JS", "Kotlin"]
+  },
+  {
+    "company": "Believe",
+    "location": "Paris, Île-de-France, France",
+    "role": "Software Developer",
+    "period": "février 2022 – août 2022",
+    "duration": "7 mois",
+    "summary": "Plate-forme qui chouchoute artistes & labels.",
+    "missions": [
+      "Tribe Supply Chain → Squad Content Ingestion",
+      "Refonte de l’outil interne VOOL pour valider les albums",
+      "Support quotidien aux Content Managers"
+    ],
+    "tech": ["JavaScript", "React JS", "Redux", "Redux-Saga", "Storybook"]
+  },
+  {
+    "company": "Alphonse (ESN)",
+    "location": "Paris, Île-de-France, France",
+    "role": "Développeur front-end",
+    "period": "octobre 2018 – février 2022",
+    "duration": "3 ans 5 mois",
+    "summary": "Missions en mode commando chez plusieurs clients.",
+    "missions": [
+      "L’OBS (3 mois) – modules PHP 7 / Phalcon",
+      "Le Parisien (2 ans) – Squad Acquisition (React JS, Node.js)",
+      "Suzuki France (9 mois) – portals internes (Laravel, React)",
+      "Groupe UP (6 mois) – extranets LOGIWEB (PHP, JS, MySQL)"
+    ],
+    "tech": ["PHP 7", "Phalcon", "JavaScript", "React JS", "Node.js", "Laravel", "MySQL"]
+  },
+  {
+    "company": "Twimm",
+    "location": "Suresnes, Île-de-France, France",
+    "role": "Développeur applications web",
+    "period": "octobre 2016 – août 2018",
+    "duration": "1 an 11 mois",
+    "summary": "SaaS de GMAO pour la proptech.",
+    "missions": [
+      "Implémentation de nouvelles features",
+      "Résolution de bugs hardcore",
+      "Création de connecteurs tiers"
+    ],
+    "tech": ["PHP", "JavaScript", "jQuery", "Vagrant", "Git", "MariaDB"]
+  },
+  {
+    "company": "Axelor",
+    "location": "Paris, France",
+    "role": "Ingénieur étude & dev",
+    "period": "mai 2016 – septembre 2016",
+    "duration": "5 mois",
+    "summary": "Montage d’ERP avec Axelor Development Kit.",
+    "missions": ["Paramétrage modèles, vues & workflows ADK"],
+    "tech": ["XML", "Java EE", "PostgreSQL", "Linux"]
+  },
+  {
+    "company": "ARAMIS INGENIERIE (mission Vivarte)",
+    "location": "Paris, France",
+    "role": "Consultant IT",
+    "period": "mai 2015 – avril 2016",
+    "duration": "1 an",
+    "summary": "Optimisation flux Oracle & CODA + SQL CRM.",
+    "missions": [
+      "Automatisation reporting fournisseurs (balances âgées, contrôles)",
+      "Optimisation interfaces Columbus & Sage ERP X3",
+      "Requêtes SQL pour recette CRM"
+    ],
+    "tech": ["Oracle", "SQL Server 2012", "PostgreSQL", "UNIX"]
+  },
+  {
+    "company": "Auto-entreprise",
+    "location": "Sucy-en-Brie, Île-de-France, France",
+    "role": "Auto-entrepreneur",
+    "period": "décembre 2013 – avril 2015",
+    "duration": "1 an 5 mois",
+    "summary": "Remise à niveau techno + chasse aux clients.",
+    "missions": ["Veille & montée en compétence PHP/JS/HTML5/CSS3", "Prospection commerciale"],
+    "tech": ["PHP 5", "JavaScript", "HTML5", "CSS3"]
+  },
+  {
+    "company": "Thales",
+    "location": "Vélizy-Villacoublay, Île-de-France, France",
+    "role": "Stagiaire fin d’études",
+    "period": "février 2013 – août 2013",
+    "duration": "7 mois",
+    "summary": "Étude marché fournisseurs + macros Excel/SAP.",
+    "missions": [
+      "Cartographie de l’offre fournisseurs (segmentation, contacts, validation)",
+      "Support estimations budgétaires appels d’offres",
+      "Macros Excel VBA & suivi commandes SAP",
+      "Traduction docs & échanges internationaux"
+    ],
+    "tech": ["VBA", "SAP", "Excel"]
+  },
+  {
+    "company": "Hutchinson",
+    "location": "Chalette-sur-Loing, Loiret, France",
+    "role": "Mission industrielle (maintenance prédictive)",
+    "period": "avril 2011 – juillet 2011",
+    "duration": "4 mois",
+    "summary": "Analyse vibratoire pour maintenance prédictive.",
+    "missions": [
+      "Analyse mécanique & bibliographie sur maintenance prédictive",
+      "Choix capteurs + acquisition sous LabVIEW Signal Express",
+      "Traitement FFT & stats sous MATLAB"
+    ],
+    "tech": ["LabVIEW", "MATLAB"]
+  },
+  {
+    "company": "Yourgroups.net",
+    "location": "Poznań, Pologne",
+    "role": "Co-fondateur, CEO & CTO",
+    "period": "août 2010 – janvier 2011",
+    "duration": "6 mois",
+    "summary": "Side-project : réseau social anglophone.",
+    "missions": [
+      "Conception architecture & dev full-stack (HTML/CSS/PHP)",
+      "Stratégie marketing + création plaquette EN",
+      "Roadmap produit & gestion budget"
+    ],
+    "tech": ["HTML", "CSS", "PHP"]
+  }
+]

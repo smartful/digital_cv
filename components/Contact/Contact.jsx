@@ -4,11 +4,10 @@ import styles from "./Contact.module.css";
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <h3>Contact</h3>
+      <h3>Informations</h3>
       <ul>
-        <li>Name : Mike Field</li>
-        <li>E-Mail : mike_field@machin.com</li>
-        <li>Tel : 06 38 69 69 69</li>
+        <li>Nom : Rémi Matthieu RODRIGUES</li>
+        <li>Nationnalité : française </li>
       </ul>
     </div>
   );
