@@ -22,3 +22,11 @@
   color: var(--text-on-dark);
   padding: 1rem 2rem;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+    color: var(--text-on-dark);
+    padding: 0.8rem 1.5rem;
+  }
+}

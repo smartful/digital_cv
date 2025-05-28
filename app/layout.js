@@ -1,6 +1,5 @@
 import "../styles/variables.css";
 import "../styles/globals.css";
-import styles from "../styles/Home.module.css";
 import Header from "../components/Header/Header";
 
 export const metadata = {
@@ -15,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={styles.container}>
+      <body>
         <Header />
         {children}
       </body>
