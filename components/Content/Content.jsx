@@ -13,8 +13,6 @@ const content = {
 const Content = () => {
   const [display, setDisplay] = useState(content.background);
 
-  const showBackground = () => {};
-
   return (
     <div className={styles.container}>
       <div className={styles.buttonWrapper}>
