@@ -5,9 +5,32 @@
   justify-content: flex-start;
 }
 
+.container {
+  background-color: whitesmoke;
+  color: #222;
+  width: 80%;
+  min-height: 100vmax;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonWrapper {
+  display: flex;
+  gap: 2rem;
+  margin: 3rem;
+}
+
+.contentWrapper {
+  margin-left: 3rem;
+}
+
 @media (max-width: 768px) {
   .bodyWrapper {
     display: flex;
     flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
   }
 }

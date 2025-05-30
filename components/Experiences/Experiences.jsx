@@ -1,36 +1,29 @@
-import React, { Fragment } from "react";
 import styles from "./Experiences.module.css";
-import experiences from "@/data/experiences.json";
 
-const Experiences = () => {
+const Experiences = ({ company, period, location, role, duration, summary, missions, tech}) => {
   return (
-    <Fragment>
-      <h1>Expériences professionnelles</h1>
-      {experiences.map(experience => (
-        <article key={`${experience.company}-${experience.period}`} className={styles.experience}>
+        <article className={styles.experience}>
           <header className={styles.company}>
-            <h2>{experience.company}</h2>
-            <h4>{experience.location}</h4>
+            <h2>{company}</h2>
+            <h4>{location}</h4>
           </header>
 
-          <h3>{experience.role}</h3>
+          <h3>{role}</h3>
 
           <div className={styles.date}>
-            <time>{experience.period}</time>
-            <div className={styles.badge}>{experience.duration}</div>
+            <time>{period}</time>
+            <div className={styles.badge}>{duration}</div>
           </div>
 
-          <p>{experience.summary}</p>
+          <p>{summary}</p>
 
           <ul className={styles.missions}>
-            {experience.missions.map(item => <li key={item}>{item}</li>)}
+            {missions.map(item => <li key={item}>{item}</li>)}
           </ul>
 
           <h5>Environnement technique</h5>
-          <div className={styles.tech}>{experience.tech.join(" · ")}</div>
+          <div className={styles.tech}>{tech.join(" · ")}</div>
         </article>
-      ))}
-    </Fragment>
   );
 };
 

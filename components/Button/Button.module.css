@@ -1,18 +1,3 @@
-.container {
-  background-color: whitesmoke;
-  color: #222;
-  width: 80%;
-  min-height: 100vmax;
-  display: flex;
-  flex-direction: column;
-}
-
-.buttonWrapper {
-  display: flex;
-  gap: 2rem;
-  margin: 3rem;
-}
-
 /* style générique */
 .button {
   cursor: pointer;
@@ -47,14 +32,4 @@
 .btn:active:not(.active) {
   transform: translateY(0);
   box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
-}
-
-.contentWrapper {
-  margin-left: 3rem;
-}
-
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
 }
