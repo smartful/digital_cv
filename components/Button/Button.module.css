@@ -12,24 +12,16 @@
 }
 
 /* état au survol */
-.button:not(.active):hover {
+.button:hover {
   background: var(--primary);
-  color: #fff;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, .35);
+  color: var(--text-on-dark);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
   transform: translateY(-2px);
 }
 
-/* bouton actif / désactivé */
-.active,
-.button:disabled {
+/* bouton actif */
+.button[data-active="true"] {
   background: var(--primary);
-  color: #fff;
-  cursor: default;
-  box-shadow: none;
-}
-
-/* effet d’enfoncement quand on clique */
-.btn:active:not(.active) {
-  transform: translateY(0);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+  color: var(--text-on-dark);
+  border-color: var(--primary);
 }

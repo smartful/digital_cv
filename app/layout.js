@@ -1,10 +1,10 @@
-import "../styles/variables.css";
-import "../styles/globals.css";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
-import Button from "../components/Button/Button";
-import Header from "../components/Header/Header";
-import SideInfos from "../components/SideInfos/SideInfos";
+import "@/styles/variables.css";
+import "@/styles/globals.css";
+import styles from "@/styles/Home.module.css";
+import NavButton from "@/components/Button/NavButton";
+import Header from "@/components/Header/Header";
+import SideInfos from "@/components/SideInfos/SideInfos";
 
 export const metadata = {
   title: {
@@ -24,17 +24,11 @@ export default function RootLayout({ children }) {
           <SideInfos />
           <div className={styles.container}>
             <div className={styles.buttonWrapper}>
-              <Link href={`/background`}>
-                <Button>Formation</Button>
-              </Link>
-              <Link href={`/experiences`}>
-                <Button>Expériences</Button>
-              </Link>
+              <NavButton href="/background">Formation</NavButton>
+              <NavButton href="/experiences">Expériences</NavButton>
             </div>
 
-            <div className={styles.contentWrapper}>
-              {children}
-            </div>
+            <div className={styles.contentWrapper}>{children}</div>
           </div>
         </div>
       </body>
