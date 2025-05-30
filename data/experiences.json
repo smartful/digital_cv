@@ -5,13 +5,13 @@
     "role": "Développeur front-end",
     "period": "mai 2024 – août 2024",
     "duration": "4 mois",
-    "summary": "Startup qui booste la santé mentale des kids pour qu’ils cartonnent à l’école.",
+    "summary": "Startup qui booste la santé mentale des enfants pour qu’ils cartonnent à l’école.",
     "missions": [
       "Migration du projet LISA → LISA v2",
       "Migration des composants Chakra UI → Mantine",
       "Prise en main du headless CMS Directus"
     ],
-    "tech": ["React", "Mantine", "Directus"]
+    "tech": ["React", "Mantine", "Directus", "Docker"]
   },
   {
     "company": "WAPSI-DIGITAL",
@@ -22,18 +22,18 @@
     "summary": "ESN, missions multi-clients et une appli mobile maison.",
     "missions": [
       "Interventions chez Action Contre la Faim & Blissim",
-      "Développement de l’app mobile Wunite",
-      "Encadrement de la stack front"
+      "Développement de l’app mobile Wunite (Instagram pour les femmes de footballeurs)",
+      "Encadrement de l'équipe front"
     ],
-    "tech": ["React JS", "Next JS", "Swift", "SwiftUI"]
+    "tech": ["React JS", "TypeScript", "Next JS", "Swift", "SwiftUI"]
   },
   {
-    "company": "Spectral TMS – AR Technician Assistant",
+    "company": "Spectral TMS – Assistant réalité augmentée pour technicien ",
     "location": "Paris, Île-de-France, France",
     "role": "Développeur front-end",
     "period": "mars 2023 – mai 2023",
     "duration": "3 mois",
-    "summary": "Front React sur Spectral Studio (assistant AR pour techniciens).",
+    "summary": "Front React sur Spectral Studio (l'éditeur de formations).",
     "missions": ["Développement de nouvelles vues & composants React"],
     "tech": ["React JS", "TypeScript", "Ant Design", "React Router", "React Query"]
   },
@@ -43,13 +43,12 @@
     "role": "Développeur front-end",
     "period": "septembre 2022 – mars 2023",
     "duration": "7 mois",
-    "summary": "Seul dev front de la boîte, service VOD Playzer & déclinaison Android TV.",
+    "summary": "Seul dev front de la boîte, service VOD Playzer (clips musicaux).",
     "missions": [
-      "Feature dev & bug-fix sur Playzer (clips musicaux)",
-      "Portage Android TV (Bouygues BBOX) – hybride WebView / native",
-      "Adaptation Kotlin côté TV"
+      "Intégration de la verticale Playzer Comedy (films, spectacles, sketchs) au sein du produit Playzer",
+      "Bug-fix en Kotlin côté Android TV (Bouygues BBOX)"
     ],
-    "tech": ["JavaScript (ES6+)", "React JS", "Kotlin"]
+    "tech": ["React JS", "JavaScript (ES6+)", "Kotlin"]
   },
   {
     "company": "Believe",
@@ -57,13 +56,13 @@
     "role": "Software Developer",
     "period": "février 2022 – août 2022",
     "duration": "7 mois",
-    "summary": "Plate-forme qui chouchoute artistes & labels.",
+    "summary": "Plate-forme qui distributs les albums des artistes sur les différents services de streaming. Présent au sein de la Tribe Supply Chain → Squad Content Ingestion.",
     "missions": [
-      "Tribe Supply Chain → Squad Content Ingestion",
-      "Refonte de l’outil interne VOOL pour valider les albums",
-      "Support quotidien aux Content Managers"
+      "Adaptation de l’outil interne VOOL aux API contributeurs.",
+      "Implémentation des nouvelle maquettes de l’outil VOOL.",
+      "Amélioration de l'ergonomie du contrôle des paroles sur VOOL pour accélérer le traitement des Content Managers"
     ],
-    "tech": ["JavaScript", "React JS", "Redux", "Redux-Saga", "Storybook"]
+    "tech": ["React JS", "TypeScript", "Redux", "Redux-Saga", "Storybook"]
   },
   {
     "company": "Alphonse (ESN)",
@@ -73,12 +72,12 @@
     "duration": "3 ans 5 mois",
     "summary": "Missions en mode commando chez plusieurs clients.",
     "missions": [
-      "L’OBS (3 mois) – modules PHP 7 / Phalcon",
-      "Le Parisien (2 ans) – Squad Acquisition (React JS, Node.js)",
-      "Suzuki France (9 mois) – portals internes (Laravel, React)",
-      "Groupe UP (6 mois) – extranets LOGIWEB (PHP, JS, MySQL)"
+      "L’OBS (3 mois) – Création d'un module d'AB-Test sur la page de choix d'abonnement, contextualisation des articles sponsorisés par des partenaires. (PHP 7 / Phalcon)",
+      "Le Parisien (2 ans) – Tribe Édito - Squad Acquisition : Création de composants dans le cadre de la refonte de la page article, migration des sitemaps et des flux RSS vers Arc XP (React JS, TypeScript, Node.js)",
+      "Suzuki France (9 mois) – Création de SaaS pour les besoins internes (Laravel, React JS)",
+      "Groupe UP (6 mois) – TMA sur LOGIWEB (PHP, JS, MySQL)"
     ],
-    "tech": ["PHP 7", "Phalcon", "JavaScript", "React JS", "Node.js", "Laravel", "MySQL"]
+    "tech": ["React JS", "TypeScript",  "Node.js", "PHP 7", "Phalcon", "Laravel", "MySQL"]
   },
   {
     "company": "Twimm",
@@ -88,11 +87,11 @@
     "duration": "1 an 11 mois",
     "summary": "SaaS de GMAO pour la proptech.",
     "missions": [
-      "Implémentation de nouvelles features",
+      "Implémentation de nouvelles features : feuilles de temps, page de synthèse sur les activités curatives, pastilles sur l'autocomplete des équipements pour informer de leurs liaisons à un contrat (actifs, résiliés ou aucun).",
       "Résolution de bugs hardcore",
       "Création de connecteurs tiers"
     ],
-    "tech": ["PHP", "JavaScript", "jQuery", "Vagrant", "Git", "MariaDB"]
+    "tech": ["PHP", "JavaScript (ES6+)", "jQuery", "Git", "MariaDB", "Vagrant"]
   },
   {
     "company": "Axelor",
@@ -100,9 +99,12 @@
     "role": "Ingénieur étude & dev",
     "period": "mai 2016 – septembre 2016",
     "duration": "5 mois",
-    "summary": "Montage d’ERP avec Axelor Development Kit.",
-    "missions": ["Paramétrage modèles, vues & workflows ADK"],
-    "tech": ["XML", "Java EE", "PostgreSQL", "Linux"]
+    "summary": "Création d’ERP avec l'Axelor Development Kit.",
+    "missions": [
+      "Apprentissage de l'Axelor Development Kit.",
+      "Bug-fixes sur le produit Axelor Business Suite"
+    ],
+    "tech": ["Java EE", "XML", "Eclipse", "PostgreSQL", "Linux"]
   },
   {
     "company": "ARAMIS INGENIERIE (mission Vivarte)",
@@ -124,9 +126,13 @@
     "role": "Auto-entrepreneur",
     "period": "décembre 2013 – avril 2015",
     "duration": "1 an 5 mois",
-    "summary": "Remise à niveau techno + chasse aux clients.",
-    "missions": ["Veille & montée en compétence PHP/JS/HTML5/CSS3", "Prospection commerciale"],
-    "tech": ["PHP 5", "JavaScript", "HTML5", "CSS3"]
+    "summary": "Création de sites web.",
+    "missions": [
+      "Création de sites vitrines et sites pour associations",
+      "Veille & montée en compétence PHP/JS/HTML5/CSS3",
+      "Prospection commerciale"
+    ],
+    "tech": ["PHP", "JavaScript", "HTML5", "CSS3"]
   },
   {
     "company": "Thales",
