@@ -47,4 +47,10 @@
   .container p {
     padding-right: 1.5rem;
   }
+
+  .buttonWrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
