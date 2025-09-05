@@ -1,17 +1,17 @@
 # 📄 Digital CV
 
-*Parce que les CVs c'est so 2010 – donnons aux recruteurs une URL qu'ils peuvent ajouter à leurs favoris.*
+_Parce que les CVs c'est so 2010 – donnons aux recruteurs une URL qu'ils peuvent ajouter à leurs favoris._
 
 ---
 
 ## La stack technique
 
-| Domaine  | Stack |
-|-----|-------|
-| Framework | **Next .js 15** (App Router, React Server Components) |
-| Front-end | **React 19**, CSS Modules |
-| Tooling   | Node ≥ 18.18 (20 LTS recommended), ESLint 9, Turbopack |
-| Hosting   | Vercel / Netlify / any static-friendly platform |
+| Domaine   | Stack                                                  |
+| --------- | ------------------------------------------------------ |
+| Framework | **Next .js 15** (App Router, React Server Components)  |
+| Front-end | **React 19**, CSS Modules                              |
+| Tooling   | Node ≥ 18.18 (22 LTS recommended), ESLint 9, Turbopack |
+| Hosting   | Vercel / Netlify / any static-friendly platform        |
 
 ---
 

@@ -1,18 +1,18 @@
-import Link from "next/link";
-import "@/styles/variables.css";
-import "@/styles/globals.css";
-import styles from "@/styles/Home.module.css";
-import NavButton from "@/components/Button/NavButton";
-import Header from "@/components/Header/Header";
-import SideInfos from "@/components/SideInfos/SideInfos";
+import Link from 'next/link';
+import '@/styles/variables.css';
+import '@/styles/globals.css';
+import styles from '@/styles/Home.module.css';
+import NavButton from '@/components/Button/NavButton';
+import Header from '@/components/Header/Header';
+import SideInfos from '@/components/SideInfos/SideInfos';
 
 export const metadata = {
   title: {
-    default: "Digital CV",
-    template: "%s | Digital CV",
+    default: 'Digital CV',
+    template: '%s | Digital CV',
   },
-  description: "curriculum vitae numérique",
-  icons: { icon: "/favicon.ico" },
+  description: 'curriculum vitae numérique',
+  icons: { icon: '/favicon.ico' },
 };
 
 export default function RootLayout({ children }) {

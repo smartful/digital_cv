@@ -1,24 +1,20 @@
 [
   {
-    "company": "MindEd Tech",
-    "location": "Levallois-Perret, Île-de-France, France",
-    "role": "Développeur front-end",
-    "period": "mai 2024 – août 2024",
-    "duration": "4 mois",
-    "summary": "Startup qui booste la santé mentale des enfants pour qu’ils cartonnent à l’école.",
-    "missions": [
-      "Migration du projet LISA → LISA v2",
-      "Migration des composants Chakra UI → Mantine",
-      "Prise en main du headless CMS Directus"
-    ],
-    "tech": ["React", "Mantine", "Directus", "Docker"]
+    "company": "R&D en IA",
+    "location": "Sucy-en-Brie, Île-de-France, France",
+    "role": "self",
+    "period": "juin 2024 – aujourd'hui",
+    "duration": "1 an",
+    "summary": "Création de modèle IA.",
+    "missions": ["Création d'un classificateur d'images", "Création d'un analyseur de sentiments"],
+    "tech": ["Python", "Pytorch", "Numpy", "Matplotlib", "Pandas"]
   },
   {
     "company": "WAPSI-DIGITAL",
     "location": "Paris, Île-de-France, France",
     "role": "Lead dev front-end",
-    "period": "juin 2023 – mars 2024",
-    "duration": "10 mois",
+    "period": "juin 2023 – juin 2024",
+    "duration": "1 an",
     "summary": "ESN, missions multi-clients et une appli mobile maison.",
     "missions": [
       "Interventions chez Action Contre la Faim & Blissim",
@@ -28,21 +24,11 @@
     "tech": ["React JS", "TypeScript", "Next JS", "Swift", "SwiftUI"]
   },
   {
-    "company": "Spectral TMS – Assistant réalité augmentée pour technicien ",
-    "location": "Paris, Île-de-France, France",
-    "role": "Développeur front-end",
-    "period": "mars 2023 – mai 2023",
-    "duration": "3 mois",
-    "summary": "Front React sur Spectral Studio (l'éditeur de formations).",
-    "missions": ["Développement de nouvelles vues & composants React"],
-    "tech": ["React JS", "TypeScript", "Ant Design", "React Router", "React Query"]
-  },
-  {
     "company": "MOBILE MEDIA COM",
     "location": "Paris, Île-de-France, France",
     "role": "Développeur front-end",
-    "period": "septembre 2022 – mars 2023",
-    "duration": "7 mois",
+    "period": "septembre 2022 – mai 2023",
+    "duration": "9 mois",
     "summary": "Seul dev front de la boîte, service VOD Playzer (clips musicaux).",
     "missions": [
       "Intégration de la verticale Playzer Comedy (films, spectacles, sketchs) au sein du produit Playzer",
@@ -51,33 +37,20 @@
     "tech": ["React JS", "JavaScript (ES6+)", "Kotlin"]
   },
   {
-    "company": "Believe",
-    "location": "Paris, Île-de-France, France",
-    "role": "Software Developer",
-    "period": "février 2022 – août 2022",
-    "duration": "7 mois",
-    "summary": "Plate-forme qui distributs les albums des artistes sur les différents services de streaming. Présent au sein de la Tribe Supply Chain → Squad Content Ingestion.",
-    "missions": [
-      "Adaptation de l’outil interne VOOL aux API contributeurs.",
-      "Implémentation des nouvelle maquettes de l’outil VOOL.",
-      "Amélioration de l'ergonomie du contrôle des paroles sur VOOL pour accélérer le traitement des Content Managers"
-    ],
-    "tech": ["React JS", "TypeScript", "Redux", "Redux-Saga", "Storybook"]
-  },
-  {
     "company": "Alphonse (ESN)",
     "location": "Paris, Île-de-France, France",
     "role": "Développeur front-end",
-    "period": "octobre 2018 – février 2022",
+    "period": "octobre 2018 – août 2022",
     "duration": "3 ans 5 mois",
     "summary": "Missions en mode commando chez plusieurs clients.",
     "missions": [
+      "Believe (8 mois) - Adaptation de l’outil interne VOOL aux API contributeurs et amélioration de l'ergonomie (React JS, TypeScript, Redux, Redux-Saga, Storybook).",
       "L’OBS (3 mois) – Création d'un module d'AB-Test sur la page de choix d'abonnement, contextualisation des articles sponsorisés par des partenaires. (PHP 7 / Phalcon)",
       "Le Parisien (2 ans) – Tribe Édito - Squad Acquisition : Création de composants dans le cadre de la refonte de la page article, migration des sitemaps et des flux RSS vers Arc XP (React JS, TypeScript, Node.js)",
       "Suzuki France (9 mois) – Création de SaaS pour les besoins internes (Laravel, React JS)",
       "Groupe UP (6 mois) – TMA sur LOGIWEB (PHP, JS, MySQL)"
     ],
-    "tech": ["React JS", "TypeScript",  "Node.js", "PHP 7", "Phalcon", "Laravel", "MySQL"]
+    "tech": ["React JS", "TypeScript", "Node.js", "PHP 7", "Phalcon", "Laravel", "MySQL"]
   },
   {
     "company": "Twimm",
@@ -100,10 +73,7 @@
     "period": "mai 2016 – septembre 2016",
     "duration": "5 mois",
     "summary": "Création d’ERP avec l'Axelor Development Kit.",
-    "missions": [
-      "Apprentissage de l'Axelor Development Kit.",
-      "Bug-fixes sur le produit Axelor Business Suite"
-    ],
+    "missions": ["Apprentissage de l'Axelor Development Kit.", "Bug-fixes sur le produit Axelor Business Suite"],
     "tech": ["Java EE", "XML", "Eclipse", "PostgreSQL", "Linux"]
   },
   {

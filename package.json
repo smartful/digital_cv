@@ -1,6 +1,6 @@
 {
   "name": "digital-cv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Un CV moderne en ligne – une URL à bookmarker plutôt qu'un PDF à oublier.",
   "author": "Rémi Matthieu RODRIGUES",
   "license": "MIT",
@@ -12,13 +12,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^15.3.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "eslint": "^9.27.0",
-    "@next/eslint-plugin-next": "^15.3.2"
+    "eslint": "^9.34.0",
+    "@next/eslint-plugin-next": "^15.5.2"
   },
   "engines": {
     "node": ">=18.18.0"
