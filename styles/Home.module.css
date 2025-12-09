@@ -3,15 +3,18 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  background: var(--bg);
 }
 
 .container {
-  background-color: whitesmoke;
-  color: #222;
+  background-color: var(--surface);
+  color: var(--text);
   width: 80%;
   min-height: 100vmax;
   display: flex;
   flex-direction: column;
+  padding-bottom: 4rem;
+  box-shadow: inset 0 1px 0 var(--border);
 }
 
 .title {
@@ -24,10 +27,18 @@
   display: flex;
   gap: 2rem;
   margin: 3rem;
+  flex-wrap: wrap;
 }
 
 .contentWrapper {
   margin-left: 3rem;
+  max-width: 960px;
+  color: var(--text);
+}
+
+.container p {
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 @media (max-width: 768px) {

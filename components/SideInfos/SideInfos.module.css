@@ -1,10 +1,11 @@
 .container {
-  background-color: #222;
-  color: whitesmoke;
+  background-color: var(--surface-strong);
+  color: var(--text);
   width: 20%;
   min-height: 100vmax;
   display: flex;
   flex-direction: column;
+  border-right: 1px solid var(--border);
 }
 
 @media (max-width: 768px) {

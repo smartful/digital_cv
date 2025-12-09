@@ -1,14 +1,16 @@
 .experience {
   padding: 1.5rem;
   margin-bottom: 1.5rem;
-  box-shadow: 2px 3px 7px #333;
+  box-shadow: 0 12px 24px var(--shadow);
   width: 90%;
   border-radius: 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
 }
 
 .badge {
   background-color: var(--primary);
-  color: white;
+  color: var(--primary-contrast);
   width: auto;
   height: 1.8rem;
   font-size: 14px;
@@ -20,10 +22,11 @@
 }
 
 .tech {
-  background-color: rgba(104, 104, 104, 0.1);
+  background-color: var(--chip);
   padding: 0.5rem;
   font-weight: 600;
   border-radius: 3rem;
+  border: 1px solid var(--border);
 }
 
 .date {

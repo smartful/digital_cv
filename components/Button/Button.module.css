@@ -1,27 +1,25 @@
-/* style générique */
 .button {
   cursor: pointer;
   padding: 0.75rem 2rem;
   border-radius: 9999px;
   border: 2px solid var(--primary);
-  background: var(--bg);
-  color: var(--text-on-light);
-  font-weight: 500;
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 600;
+  letter-spacing: 0.01em;
   transition: all 0.2s ease;
   position: relative;
 }
 
-/* état au survol */
 .button:hover {
   background: var(--primary);
-  color: var(--text-on-dark);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+  color: var(--primary-contrast);
+  box-shadow: 0 8px 18px var(--shadow);
   transform: translateY(-2px);
 }
 
-/* bouton actif */
-.button[data-active="true"] {
+.button[data-active='true'] {
   background: var(--primary);
-  color: var(--text-on-dark);
+  color: var(--primary-contrast);
   border-color: var(--primary);
 }

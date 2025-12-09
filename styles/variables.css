@@ -1,7 +1,59 @@
 :root {
-  --primary: #444;
-  --primary-dark: #2b2b2b;
-  --text-on-light: #222;
-  --text-on-dark: #eee;
-  --bg: #fff;
+  color-scheme: light;
+  --bg: #f3f5fb;
+  --surface: #ffffff;
+  --surface-strong: #e8ecf5;
+  --card: #ffffff;
+  --text: #131826;
+  --muted: #5e6577;
+  --primary: #2d6ef5;
+  --primary-contrast: #f6f8ff;
+  --shadow: rgba(19, 24, 38, 0.08);
+  --chip: rgba(45, 110, 245, 0.12);
+  --border: rgba(19, 24, 38, 0.08);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0c101a;
+  --surface: #131a2c;
+  --surface-strong: #0b0f1f;
+  --card: #131a2c;
+  --text: #e5e9f4;
+  --muted: #9db0d0;
+  --primary: #75d0ff;
+  --primary-contrast: #0b1421;
+  --shadow: rgba(0, 0, 0, 0.6);
+  --chip: rgba(117, 208, 255, 0.16);
+  --border: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme='ocean'] {
+  color-scheme: light;
+  --bg: #e6f3f6;
+  --surface: #ffffff;
+  --surface-strong: #d4e9f0;
+  --card: #ffffff;
+  --text: #0f1f33;
+  --muted: #486276;
+  --primary: #0f9fb8;
+  --primary-contrast: #eafdff;
+  --shadow: rgba(15, 159, 184, 0.22);
+  --chip: rgba(15, 159, 184, 0.14);
+  --border: rgba(15, 159, 184, 0.18);
+}
+
+:root[data-theme='sunset'] {
+  color-scheme: light;
+  --bg: #fdf2ea;
+  --surface: #ffffff;
+  --surface-strong: #f4ddce;
+  --card: #ffffff;
+  --text: #2f130d;
+  --muted: #6b3d2f;
+  --primary: #e06639;
+  --primary-contrast: #fff8f4;
+  --shadow: rgba(224, 102, 57, 0.24);
+  --chip: rgba(224, 102, 57, 0.18);
+  --border: rgba(224, 102, 57, 0.2);
 }
