@@ -6,7 +6,7 @@ import Button from "@/components/Button/Button";
 
 export default function NavButton({ href, children }) {
   const pathname = usePathname();
-  const active = pathname.startsWith(href);
+  const active = href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
     <Link href={href} aria-current={active ? "page" : undefined}>

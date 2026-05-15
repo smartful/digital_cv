@@ -1,116 +1,136 @@
 [
   {
-    "company": "R&D en IA",
+    "company": "Projets personnels",
     "location": "Sucy-en-Brie, Île-de-France, France",
-    "role": "self",
-    "period": "juillet 2025 - aujourd'hui",
+    "role": "Développeur logiciel / IA",
+    "period": "septembre 2024 - aujourd'hui",
+    "duration": "1 an 8 mois",
+    "summary": "Développement de projets personnels et expérimentation technique en intelligence artificielle et ingénierie logicielle.",
+    "missions": [
+      "Exploration du reinforcement learning, des transformers, des modèles de diffusion et des GANs.",
+      "Création d'un analyseur de sentiments avec PyTorch et LSTM.",
+      "Développement d'un classificateur d'images à base de CNN.",
+      "Développement d'un lecteur de flux RSS en Symfony 7 et d'un gestionnaire de contacts en PHP natif.",
+      "Conception d'une application commerçants / habitants : API Node.js, Express, TypeScript et Drizzle, backoffice React, application mobile React Native / Expo."
+    ],
+    "tech": ["Python", "PyTorch", "TypeScript", "Node.js", "Express", "React JS", "React Native", "Expo", "PHP", "Symfony 7"]
+  },
+  {
+    "company": "MindEd Tech",
+    "location": "Paris, Île-de-France, France",
+    "role": "Développeur React JS",
+    "period": "mai 2024 - août 2024",
+    "duration": "4 mois",
+    "summary": "Filiale du groupe IFEA concevant des outils informatiques liés à la santé mentale des enfants dans le domaine de l'éducation.",
+    "missions": [
+      "Migration du projet LISA vers LISA v2.",
+      "Migration des composants de Chakra UI vers Mantine.",
+      "Prise en main du Headless CMS Directus.",
+      "Passage des projets sous forme de DevContainer et réécriture des Dockerfile."
+    ],
+    "tech": ["React JS", "Next JS", "Directus", "Docker", "Mantine"]
+  },
+  {
+    "company": "WAPSI Digital",
+    "location": "Paris, Île-de-France, France",
+    "role": "Développeur React JS",
+    "period": "juin 2023 - mars 2024",
+    "duration": "10 mois",
+    "summary": "ESN avec interventions pour Action Contre la Faim, Blissim et Wunite.",
+    "missions": [
+      "Audit de maintenabilité de bases de code et de performances.",
+      "Mise en place d'un site de documentation technique avec Docusaurus.",
+      "Intégration d'écrans Figma pour une application mobile iOS Wunite en Swift et SwiftUI."
+    ],
+    "tech": ["React JS", "Next JS", "TypeScript", "Docusaurus", "Swift", "SwiftUI"]
+  },
+  {
+    "company": "Spectral TMS",
+    "location": "Paris, Île-de-France, France",
+    "role": "Développeur React JS",
+    "period": "mars 2023 - mai 2023",
     "duration": "3 mois",
-    "summary": "Période consacrée à la montée en compétence sur les technologies d'intelligence artificielle.",
+    "summary": "Startup développant une solution de réalité augmentée pour la production et la maintenance industrielle.",
     "missions": [
-      "Étude et implémentation de modèles d'apprentissage supervisé et non supervisé.",
-      "Exploration du reinforcement learning, des diffusion models et des GANs.",
-      "Création d'un classificateur d'images",
-      "Création d'un analyseur de sentiments"
+      "Mise en place d'un système d'onglets pour alléger l'ergonomie de saisie des informations d'étape.",
+      "Gestion de la navigation par URL dans l'outil de gestion des médias.",
+      "Ajout d'un drag and drop pour ordonner les images et équipements dans les étapes."
     ],
-    "tech": ["Python", "Pytorch", "Numpy", "Matplotlib", "Pandas"]
+    "tech": ["TypeScript", "React JS", "React Router", "React Query", "Jest", "Ant Design"]
   },
   {
-    "company": "WAPSI-DIGITAL",
+    "company": "Mobile Media Com - Playzer",
     "location": "Paris, Île-de-France, France",
-    "role": "Lead dev front-end",
-    "period": "septembre 2022 - juin 2025",
-    "duration": "2 an et 10 mois",
-    "summary": "ESN, missions multi-clients et une appli mobile maison.",
+    "role": "Développeur React JS",
+    "period": "septembre 2022 - mars 2023",
+    "duration": "7 mois",
+    "summary": "Services de streaming avec paiement via abonnement téléphonique.",
     "missions": [
-      "Wunite (1 an) - Développement d'une app iOS pour les femmes de footballeur, avec architecture modulaire pour favoriser l'évolutivité (Swift, SwiftUI).",
-      "Action Contre la Faim (8 mois) - Création d'un portail documentaire technique, et d'un audit de maintenabilité d'un projet récent en vue de déployer les technologies utilisées sur un autre produit plus critique (React JS, Next JS, TypeScript, Docusaurus).",
-      "Playzer [Mobile Media Com] (1 an) - Création de la verticale Playzer Comedy ((films, spectacles, sketchs) sur l'app web du produit Playzer et corrections sur l'app Android TV sur BBOX (TypeScript, React JS, Kotlin, Shaka Player, protocole DASH & HLS)"
+      "Prise en main par rétro-ingénierie d'une base de code historique.",
+      "Compréhension des protocoles de streaming HLS et DASH.",
+      "Ajout de la verticale Playzer Comedy pour films, spectacles et sketchs.",
+      "Corrections sur l'application Playzer BBOX, hybride WebView et Android TV native Kotlin."
     ],
-    "tech": ["React JS", "TypeScript", "Next JS", "Swift", "SwiftUI", "Kotlin"]
+    "tech": ["JavaScript", "React JS", "React Router", "Kotlin", "HLS", "DASH"]
   },
   {
-    "company": "Alphonse (ESN)",
+    "company": "Believe",
     "location": "Paris, Île-de-France, France",
-    "role": "Développeur front-end",
-    "period": "septembre 2018 - août 2022",
-    "duration": "4 ans",
-    "summary": "Missions en mode commando chez plusieurs clients.",
+    "role": "Développeur React JS",
+    "period": "février 2022 - août 2022",
+    "duration": "7 mois",
+    "summary": "Solution de distribution d'albums de musique auprès des plateformes de streaming musical.",
     "missions": [
-      "Believe (1 ans) - Adaptation de l'outil interne VOOL aux API contributeurs et amélioration de l'ergonomie (React JS, TypeScript, Redux, Redux-Saga, Storybook).",
-      "Le Parisien (2 ans) - Tribe Édito - Squad Acquisition : Création de composants dans le cadre de la refonte de la page article, migration des sitemaps et des flux RSS vers Arc XP (React JS, TypeScript, Node.js)",
-      "Suzuki France (1 an) - Création de SaaS pour les besoins internes (Laravel, React JS)"
+      "Refonte de l'outil interne VOOL utilisé par les Content Managers pour valider les albums.",
+      "Intégration de la refonte de l'API contributeur.",
+      "Mise en oeuvre des nouvelles maquettes du modèle contributeur."
     ],
-    "tech": ["React JS", "TypeScript", "Node.js", "PHP 7", "Phalcon", "Laravel", "MySQL"]
+    "tech": ["JavaScript", "React JS", "Redux", "Redux Saga", "Jest", "Storybook"]
+  },
+  {
+    "company": "Alphonse.io",
+    "location": "Paris, Île-de-France, France",
+    "role": "Développeur fullstack",
+    "period": "octobre 2018 - février 2022",
+    "duration": "3 ans 5 mois",
+    "summary": "Missions fullstack et frontend pour L'Obs, Le Parisien, Suzuki France et Groupe UP.",
+    "missions": [
+      "L'Obs : module d'AB test sur le paywall, contextualisation d'articles sponsorisés et gestion du positionnement du paywall.",
+      "Le Parisien : refonte de la page article, création de plugins Arc XP, migration de flux RSS partenaires et sitemaps.",
+      "Suzuki France : outil de suivi des demandes d'essais Facebook, API Laravel et applications React pour la division moto.",
+      "Groupe UP : maintenance applicative, résolution d'anomalies, support commande et ajout de fonctionnalités sur extranet."
+    ],
+    "tech": ["PHP", "Phalcon", "Laravel", "JavaScript", "React JS", "Node.js", "Jest", "Arc XP", "Redis"]
   },
   {
     "company": "Twimm",
     "location": "Suresnes, Île-de-France, France",
-    "role": "Développeur applications web",
-    "period": "avril 2015 - août 2018",
-    "duration": "3 an 5 mois",
-    "summary": "SaaS de GMAO pour la proptech.",
+    "role": "Développeur fullstack",
+    "period": "octobre 2016 - août 2018",
+    "duration": "1 an 11 mois",
+    "summary": "Outil de gestion d'intervention dans les secteurs de la maintenance immobilière.",
     "missions": [
-      "Implémentation de nouvelles features : feuilles de temps, page de synthèse sur les activités curatives, pastilles sur l'autocomplete des équipements pour informer de leurs liaisons à un contrat (actifs, résiliés ou aucun).",
-      "Résolution de bugs hardcore (plus de 400)",
-      "Création de connecteurs tiers"
+      "Implémentation de fonctionnalités sur les feuilles de temps, le reporting et les impressions de bons d'intervention.",
+      "Mise en oeuvre de connecteurs avec des logiciels tiers pour synchroniser les bons d'intervention et l'allocation de sites.",
+      "Résolution de plus de 300 hotfixes.",
+      "Enrichissement de la documentation développeur sur GitLab."
     ],
-    "tech": ["PHP", "JavaScript (ES6+)", "jQuery", "Git", "MariaDB", "Vagrant"]
+    "tech": ["PHP", "JavaScript", "jQuery", "SQL", "Ajax", "SOAP", "Git", "Vagrant"]
   },
   {
-    "company": "Auto-entreprise",
-    "location": "Sucy-en-Brie, Île-de-France, France",
-    "role": "Auto-entrepreneur",
-    "period": "décembre 2013 - avril 2015",
-    "duration": "1 an 5 mois",
-    "summary": "Création de sites web.",
+    "company": "Expériences antérieures",
+    "location": "France",
+    "role": "Développeur et ingénieur logiciel",
+    "period": "2010 - 2016",
+    "duration": "6 ans",
+    "summary": "Développement back-end, traitements C / SQL, entrepreneuriat web et premiers projets produits.",
     "missions": [
-      "Création de sites vitrines et sites pour associations",
-      "Veille & montée en compétence PHP/JS/HTML5/CSS3",
-      "Prospection commerciale"
+      "Axelor : apprentissage de l'Axelor Development Kit et debug d'Axelor Business Suite.",
+      "Aramis Ingénierie : traitements sur flux de bases Oracle et UNIT4 Financial, requêtes SQL pour recette CRM.",
+      "SMARTFUL : création de sites web en PHP, JavaScript, HTML5 et CSS3.",
+      "YourGroups.net : co-conception et développement d'un réseau social en XHTML, CSS2, PHP et MySQL.",
+      "Thales et Hutchinson : stage achats industriels, VBA, SAP, maintenance prédictive, MATLAB et LabVIEW."
     ],
-    "tech": ["PHP", "JavaScript", "HTML5", "CSS3"]
-  },
-  {
-    "company": "Thales",
-    "location": "Vélizy-Villacoublay, Île-de-France, France",
-    "role": "Stagiaire fin d'études",
-    "period": "février 2013 - août 2013",
-    "duration": "7 mois",
-    "summary": "Étude marché fournisseurs + macros Excel/SAP.",
-    "missions": [
-      "Cartographie de l'offre fournisseurs (segmentation, contacts, validation)",
-      "Support estimations budgétaires appels d'offres",
-      "Macros Excel VBA & suivi commandes SAP",
-      "Traduction docs & échanges internationaux"
-    ],
-    "tech": ["VBA", "SAP", "Excel"]
-  },
-  {
-    "company": "Hutchinson",
-    "location": "Chalette-sur-Loing, Loiret, France",
-    "role": "Mission industrielle (maintenance prédictive)",
-    "period": "avril 2011 - juillet 2011",
-    "duration": "4 mois",
-    "summary": "Analyse vibratoire pour maintenance prédictive.",
-    "missions": [
-      "Analyse mécanique & bibliographie sur maintenance prédictive",
-      "Choix capteurs + acquisition sous LabVIEW Signal Express",
-      "Traitement FFT & stats sous MATLAB"
-    ],
-    "tech": ["LabVIEW", "MATLAB"]
-  },
-  {
-    "company": "Yourgroups.net",
-    "location": "Poznań, Pologne",
-    "role": "Co-fondateur, CEO & CTO",
-    "period": "août 2010 - janvier 2011",
-    "duration": "6 mois",
-    "summary": "Side-project : réseau social anglophone.",
-    "missions": [
-      "Conception architecture & dev full-stack (HTML/CSS/PHP)",
-      "Stratégie marketing + création plaquette EN",
-      "Roadmap produit & gestion budget"
-    ],
-    "tech": ["HTML", "CSS", "PHP"]
+    "tech": ["Java EE", "SQL", "C", "PHP", "JavaScript", "HTML", "CSS", "VBA", "MATLAB", "LabVIEW"]
   }
 ]

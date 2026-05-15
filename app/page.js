@@ -4,27 +4,40 @@ export default function HomePage() {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        Développeur Fullstack | Expert React JS | Passionné par l'innovation technologique
+        Développeur React, TypeScript et Node.js orienté produit
       </div>
 
       <p>
-        Avec près de 10 ans d'expérience en développement web, je suis spécialisé dans la conception d'applications
-        performantes et intuitives, principalement en React JS et JavaScript. J'ai eu l'occasion de contribuer à des
-        projets variés, dans des secteurs tels que l'automobile (Suzuki), les médias (Le Parisien, L'Obs), et la
-        proptech (Twimm).
+        Ingénieur logiciel frontend / fullstack, j'interviens sur des applications web métier, des backoffices,
+        des interfaces React complexes et des architectures fullstack. Mon parcours combine presse, streaming,
+        santé, industrie, mobilité et projets personnels en intelligence artificielle.
       </p>
 
       <p>
-        Mon approche se concentre sur la livraison de solutions stables, robustes et maintenables, tout en assurant une
-        collaboration efficace avec des équipes pluridisciplinaires. J'apprécie particulièrement les environnements
-        technologiques établis, mais je reste attentif aux évolutions du secteur pour m'assurer que les solutions que je
-        développe répondent aux meilleurs standards actuels.
+        Habitué aux contextes clients, aux produits internes et aux bases de code existantes, je peux auditer,
+        maintenir, migrer et développer des fonctionnalités avec une attention forte à la qualité d'usage et à la
+        lisibilité technique.
       </p>
 
       <p>
-        Je suis motivé par des projets ayant un impact réel, et je cherche à contribuer à des équipes qui partagent
-        cette même vision.
+        Aujourd'hui, je cherche surtout des sujets frontend ou fullstack autour de React, TypeScript, Node.js,
+        modernisation d'applications, conception produit et intégration d'outils IA lorsque le besoin métier le justifie.
       </p>
+
+      <div className={styles.highlights} aria-label="Points clés du profil">
+        <article>
+          <strong>10+ ans</strong>
+          <span>développement web et logiciel</span>
+        </article>
+        <article>
+          <strong>React / TypeScript</strong>
+          <span>interfaces produit et backoffices</span>
+        </article>
+        <article>
+          <strong>IA appliquée</strong>
+          <span>PyTorch, LSTM, CNN et veille modèles génératifs</span>
+        </article>
+      </div>
     </div>
   );
 }

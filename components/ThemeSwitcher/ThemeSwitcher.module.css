@@ -1,36 +1,34 @@
 .wrapper {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 0.35rem 0.5rem;
-  border-radius: 9999px;
-  backdrop-filter: blur(6px);
+  gap: 0.25rem;
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  padding: 0.25rem;
+  border-radius: 8px;
 }
 
 .option {
   cursor: pointer;
-  padding: 0.35rem 0.9rem;
-  border-radius: 9999px;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
   border: 1px solid transparent;
   background: transparent;
-  color: var(--primary-contrast);
+  color: var(--muted);
   font-weight: 600;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
   transition: all 0.2s ease;
 }
 
 .option[data-active='true'] {
-  background: var(--primary-contrast);
-  color: var(--primary);
-  border-color: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 18px var(--shadow);
+  background: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
 }
 
 .option:hover {
-  border-color: rgba(255, 255, 255, 0.45);
-  transform: translateY(-1px);
+  border-color: var(--border);
+  color: var(--text);
 }
 
 @media (max-width: 768px) {

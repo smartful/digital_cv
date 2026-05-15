@@ -1,7 +1,6 @@
 import { Fragment } from 'react';
 import Experiences from '@/components/Experiences/Experiences';
 import experiences from '@/data/experiences.json';
-import styles from '@/styles/Home.module.css';
 
 export default function Page() {
   return (

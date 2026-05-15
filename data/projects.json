@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Analyseur de sentiments",
+    "type": "IA / PyTorch",
+    "description": "Modèle LSTM développé avec PyTorch pour classifier des textes selon leur tonalité.",
+    "url": "https://github.com/smartful/sentiment_lstm_pytorch",
+    "tech": ["Python", "PyTorch", "LSTM"]
+  },
+  {
+    "name": "Classificateur d'images",
+    "type": "IA / CNN",
+    "description": "Réseau convolutionnel pour expérimenter la classification d'images et les pipelines d'entraînement.",
+    "url": "https://github.com/smartful/convolutional_neural_network_pytorch",
+    "tech": ["Python", "PyTorch", "CNN"]
+  },
+  {
+    "name": "Application commerçants / habitants",
+    "type": "Produit fullstack",
+    "description": "Projet de mise en contact avec API Node / TypeScript, backoffice React et application mobile React Native / Expo.",
+    "url": "",
+    "tech": ["Node.js", "Express", "TypeScript", "Drizzle", "React", "React Native", "Expo"]
+  },
+  {
+    "name": "Lecteur de flux RSS",
+    "type": "Application web",
+    "description": "Lecteur de flux développé en Symfony 7 dans le cadre des projets personnels.",
+    "url": "",
+    "tech": ["PHP", "Symfony 7"]
+  }
+]

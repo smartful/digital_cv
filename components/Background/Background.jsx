@@ -1,5 +1,4 @@
 import styles from "./Background.module.css";
-import education from "@/data/education.json";
 
 const Background = ({ institution, location, degree, period }) => {
   return (

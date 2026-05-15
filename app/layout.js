@@ -7,10 +7,11 @@ import SideInfos from '@/components/SideInfos/SideInfos';
 
 export const metadata = {
   title: {
-    default: 'Digital CV',
-    template: '%s | Digital CV',
+    default: 'Rémi Rodrigues - Développeur React & Fullstack',
+    template: '%s | Rémi Rodrigues',
   },
-  description: 'curriculum vitae numérique',
+  description:
+    'CV digital de Rémi Rodrigues, développeur frontend et fullstack spécialisé React, TypeScript, Node.js et applications web.',
   icons: { icon: '/favicon.ico' },
 };
 
@@ -23,8 +24,10 @@ export default function RootLayout({ children }) {
           <SideInfos />
           <div className={styles.container}>
             <div className={styles.buttonWrapper}>
+              <NavButton href="/">Profil</NavButton>
               <NavButton href="/background">Formation</NavButton>
               <NavButton href="/experiences">Expériences</NavButton>
+              <NavButton href="/projects">Projets</NavButton>
             </div>
 
             <div className={styles.contentWrapper}>{children}</div>

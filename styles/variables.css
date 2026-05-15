@@ -1,59 +1,33 @@
 :root {
   color-scheme: light;
-  --bg: #f3f5fb;
+  --bg: #f6f8fb;
   --surface: #ffffff;
-  --surface-strong: #e8ecf5;
+  --surface-strong: #edf1f6;
   --card: #ffffff;
-  --text: #131826;
-  --muted: #5e6577;
-  --primary: #2d6ef5;
-  --primary-contrast: #f6f8ff;
-  --shadow: rgba(19, 24, 38, 0.08);
-  --chip: rgba(45, 110, 245, 0.12);
-  --border: rgba(19, 24, 38, 0.08);
+  --text: #111827;
+  --muted: #374151;
+  --primary: #155eef;
+  --primary-contrast: #ffffff;
+  --accent: #155eef;
+  --shadow: rgba(17, 24, 39, 0.08);
+  --chip: rgba(21, 94, 239, 0.08);
+  --border: #d9e0ea;
+  --hairline: #e8edf4;
 }
 
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --bg: #0c101a;
-  --surface: #131a2c;
-  --surface-strong: #0b0f1f;
-  --card: #131a2c;
-  --text: #e5e9f4;
-  --muted: #9db0d0;
-  --primary: #75d0ff;
-  --primary-contrast: #0b1421;
-  --shadow: rgba(0, 0, 0, 0.6);
-  --chip: rgba(117, 208, 255, 0.16);
-  --border: rgba(255, 255, 255, 0.08);
-}
-
-:root[data-theme='ocean'] {
-  color-scheme: light;
-  --bg: #e6f3f6;
-  --surface: #ffffff;
-  --surface-strong: #d4e9f0;
-  --card: #ffffff;
-  --text: #0f1f33;
-  --muted: #486276;
-  --primary: #0f9fb8;
-  --primary-contrast: #eafdff;
-  --shadow: rgba(15, 159, 184, 0.22);
-  --chip: rgba(15, 159, 184, 0.14);
-  --border: rgba(15, 159, 184, 0.18);
-}
-
-:root[data-theme='sunset'] {
-  color-scheme: light;
-  --bg: #fdf2ea;
-  --surface: #ffffff;
-  --surface-strong: #f4ddce;
-  --card: #ffffff;
-  --text: #2f130d;
-  --muted: #6b3d2f;
-  --primary: #e06639;
-  --primary-contrast: #fff8f4;
-  --shadow: rgba(224, 102, 57, 0.24);
-  --chip: rgba(224, 102, 57, 0.18);
-  --border: rgba(224, 102, 57, 0.2);
+  --bg: #080d18;
+  --surface: #0f172a;
+  --surface-strong: #111c31;
+  --card: #121c30;
+  --text: #f8fafc;
+  --muted: #d1d5db;
+  --primary: #8ab4ff;
+  --primary-contrast: #08111f;
+  --accent: #8ab4ff;
+  --shadow: rgba(0, 0, 0, 0.45);
+  --chip: rgba(138, 180, 255, 0.12);
+  --border: rgba(226, 232, 240, 0.2);
+  --hairline: rgba(226, 232, 240, 0.1);
 }

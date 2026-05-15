@@ -13,7 +13,7 @@ const Header = () => {
       </Link>
 
       <div className={styles.meta}>
-        <h1 className={styles.title}>Développeur Frontend React JS</h1>
+        <h1 className={styles.title}>Développeur React JS / Fullstack</h1>
         <ThemeSwitcher />
       </div>
     </div>

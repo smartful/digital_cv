@@ -1,25 +1,23 @@
 .button {
   cursor: pointer;
-  padding: 0.75rem 2rem;
-  border-radius: 9999px;
-  border: 2px solid var(--primary);
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--hairline);
   background: var(--surface);
   color: var(--text);
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  font-weight: 800;
+  letter-spacing: 0;
   transition: all 0.2s ease;
   position: relative;
 }
 
 .button:hover {
-  background: var(--primary);
-  color: var(--primary-contrast);
-  box-shadow: 0 8px 18px var(--shadow);
-  transform: translateY(-2px);
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 .button[data-active='true'] {
-  background: var(--primary);
+  background: var(--text);
   color: var(--primary-contrast);
-  border-color: var(--primary);
+  border-color: var(--text);
 }

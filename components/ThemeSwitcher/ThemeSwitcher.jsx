@@ -6,8 +6,6 @@ import styles from './ThemeSwitcher.module.css';
 const AVAILABLE_THEMES = [
   { id: 'light', label: 'Clair' },
   { id: 'dark', label: 'Sombre' },
-  { id: 'ocean', label: 'Océan' },
-  { id: 'sunset', label: 'Sunset' },
 ];
 
 const STORAGE_KEY = 'cv-theme';

@@ -1,0 +1,62 @@
+.project {
+  border-top: 1px solid var(--hairline);
+  display: grid;
+  gap: 0.75rem 2rem;
+  grid-template-columns: minmax(150px, 0.28fr) minmax(0, 1fr);
+  margin-bottom: 0;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.type {
+  color: var(--primary);
+  font-weight: 800;
+  grid-column: 1;
+  grid-row: 1 / span 4;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.project h2,
+.project p,
+.tech,
+.link,
+.pending {
+  grid-column: 2;
+}
+
+.project h2 {
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  line-height: 1.15;
+}
+
+.tech {
+  background-color: var(--chip);
+  color: var(--text);
+  display: inline-block;
+  padding: 0.55rem 0.75rem;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 1px solid var(--hairline);
+  line-height: 1.5;
+}
+
+.link,
+.pending {
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 0.25rem;
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .project {
+    display: block;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .type {
+    margin-bottom: 0.6rem;
+  }
+}

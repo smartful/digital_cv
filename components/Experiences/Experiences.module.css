@@ -1,39 +1,47 @@
 .experience {
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 12px 24px var(--shadow);
-  width: 90%;
-  border-radius: 1rem;
-  background: var(--card);
-  border: 1px solid var(--border);
+  border-top: 1px solid var(--hairline);
+  display: grid;
+  gap: 1rem 2rem;
+  grid-template-columns: minmax(170px, 0.32fr) minmax(0, 1fr);
+  margin-bottom: 0;
+  padding: 2rem 0;
+  width: 100%;
 }
 
 .badge {
-  background-color: var(--primary);
-  color: var(--primary-contrast);
-  width: auto;
-  height: 1.8rem;
-  font-size: 14px;
-  padding: 0.8rem;
-  display: flex;
-  align-items: center;
-  border-radius: 6rem;
-  margin-left: 1.5rem;
+  background-color: transparent;
+  color: var(--primary);
+  width: fit-content;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0;
 }
 
 .tech {
   background-color: var(--chip);
-  padding: 0.5rem;
-  font-weight: 600;
-  border-radius: 3rem;
-  border: 1px solid var(--border);
+  color: var(--text);
+  display: inline-block;
+  padding: 0.55rem 0.75rem;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 1px solid var(--hairline);
+  line-height: 1.5;
 }
 
 .date {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
+  gap: 0.4rem;
+  grid-column: 1;
+  grid-row: 1 / span 5;
+}
+
+.date time {
+  color: var(--text);
+  font-weight: 800;
+  line-height: 1.3;
 }
 
 .company {
@@ -42,22 +50,68 @@
   justify-content: space-between;
   gap: 2rem;
   align-items: baseline;
+  grid-column: 2;
+}
+
+.company h2 {
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  line-height: 1.15;
+}
+
+.company h4 {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.experience h3,
+.experience p,
+.experience ul,
+.experience h5,
+.experience .tech {
+  grid-column: 2;
+}
+
+.experience h3 {
+  color: var(--primary);
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.experience p {
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+
+.missions {
+  margin-bottom: 0.75rem;
+  padding-left: 1.1rem;
+}
+
+.missions li {
+  margin-bottom: 0.45rem;
+}
+
+.experience h5 {
+  color: var(--text);
+  font-size: 0.9rem;
+  margin-bottom: -0.4rem;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
   .experience {
-    padding: 1rem;
+    display: block;
+    padding: 1.5rem 0;
   }
 
   .date {
     gap: 0.5rem;
     flex-wrap: wrap;
+    margin-bottom: 0.75rem;
   }
 
   .badge {
-    font-size: 10px;
-    padding: 0.4rem;
-    margin-left: 0.2rem;
+    font-size: 0.82rem;
   }
 
   .company {
