@@ -12,7 +12,7 @@ export const metadata = {
   },
   description:
     'CV digital de Rémi Rodrigues, développeur frontend et fullstack spécialisé React, TypeScript, Node.js et applications web.',
-  icons: { icon: '/favicon.ico' },
+  icons: { icon: '/favicon.png' },
 };
 
 export default function RootLayout({ children }) {

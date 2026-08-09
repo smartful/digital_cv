@@ -8,7 +8,7 @@ const Header = () => {
     <div className={styles.container}>
       <Link href={`/`}>
         <div className={styles.avatar}>
-          <Image src="/images/remi.jpg" alt="Photo de profil" width={100} height={100} unoptimized />
+          <Image src="/images/photo_moi_cv.jpg" alt="Photo de profil" width={100} height={100} unoptimized />
         </div>
       </Link>
 
