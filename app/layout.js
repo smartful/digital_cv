@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
           <div className={styles.container}>
             <div className={styles.buttonWrapper}>
               <NavButton href="/">Profil</NavButton>
+              <NavButton href="/links">Liens</NavButton>
               <NavButton href="/background">Formation</NavButton>
               <NavButton href="/experiences">Expériences</NavButton>
               <NavButton href="/projects">Projets</NavButton>
