@@ -5,7 +5,7 @@ import links from '@/data/links.json';
 export default function Page() {
   return (
     <Fragment>
-      <h1>Liens complémentaires</h1>
+      <h2 style={{ fontSize: '2rem' }}>Liens complémentaires</h2>
 
       {links.map((link) => (
         <div key={`${link.label}`} style={{ marginBottom: '1.2rem' }}>

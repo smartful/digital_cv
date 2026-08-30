@@ -1,0 +1,108 @@
+# Rémi Rodrigues — Ingénieur Logiciel Fullstack
+
+> Ingénieur logiciel fullstack avec plus de 12 ans d'expérience, spécialisé en React, TypeScript et Node.js. Expérience dans les SaaS, ERP, médias, streaming et applications métier, avec une forte capacité à intervenir sur des bases de code existantes, des migrations et des environnements techniques complexes.
+
+Site professionnel de Rémi Rodrigues, développeur fullstack basé en France.
+
+Compétences principales : React, TypeScript, JavaScript, Node.js, Express, Next.js, PHP, Symfony, SQL, React Native, Git, Docker et Jest.
+
+Rémi Rodrigues intervient principalement sur la conception et l'évolution de produits numériques : interfaces web, applications métier, API backend, intégration de services et maintenance de systèmes existants.
+
+## Pages principales
+
+* [Profil](https://remirodrigues.netlify.app/): Présentation générale, positionnement professionnel et compétences principales. Profil orienté développement fullstack React / TypeScript / Node.js, conception produit, modernisation d'applications et intégration d'outils IA lorsque cela répond à un besoin métier.
+
+* [Formation](https://remirodrigues.netlify.app/background): Parcours académique : Bac S, classes préparatoires PTSI/PT, diplôme d'ingénieur à l'INSA Centre Val de Loire, ainsi que des expériences académiques en Allemagne et en Pologne.
+
+* [Expériences professionnelles](https://remirodrigues.netlify.app/experiences): Parcours professionnel détaillé avec plus de 12 ans d'expérience. Expériences notamment chez MindEd Tech, WAPSI Digital, Spectral TMS, Mobile Media Com / Playzer, Believe, Alphonse.io et Twimm, ainsi que des missions pour Le Parisien, L'Obs, Suzuki France, Groupe UP, Action Contre la Faim et Blissim.
+
+* [Projets](https://remirodrigues.netlify.app/projects): Sélection de projets personnels en ingénierie logicielle et intelligence artificielle, notamment un analyseur de sentiments LSTM avec PyTorch, un classificateur d'images CNN, une application fullstack Node.js / React / React Native et un lecteur RSS Symfony.
+
+* [Liens](https://remirodrigues.netlify.app/links): Profil LinkedIn, GitHub, chaîne YouTube et certifications professionnelles.
+
+## Expertise
+
+### Frontend
+
+* React
+* TypeScript
+* JavaScript
+* Next.js
+* React Router
+* Redux
+* React Query
+* Zustand
+* Storybook
+
+### Backend
+
+* Node.js
+* Express
+* PHP
+* Symfony
+* Laravel
+* API REST
+* SQL
+* Drizzle
+
+### Mobile
+
+* React Native
+* Expo
+* Swift / SwiftUI
+* Kotlin / Android TV
+
+### Intelligence artificielle
+
+* Python
+* PyTorch
+* LSTM
+* CNN
+* Transformers
+* Machine Learning
+
+## Expériences représentatives
+
+Parmi les expériences professionnelles les plus représentatives :
+
+* Développement frontend et fullstack pour Le Parisien, L'Obs, Suzuki France et Groupe UP.
+* Migration de flux RSS partenaires et de sitemaps pour Le Parisien sur Arc XP.
+* Développement et évolution de l'outil interne VOOL chez Believe, entreprise spécialisée dans la distribution numérique de musique.
+* Développement de fonctionnalités métier et de connecteurs entre logiciels chez Twimm.
+* Résolution de plus de 300 hotfixes sur l'ERP Twimm.
+* Développement de produits de streaming chez Mobile Media Com / Playzer.
+* Audits de maintenabilité et de performances frontend chez WAPSI Digital.
+
+## Positionnement professionnel
+
+Postes principalement recherchés :
+
+* Ingénieur Logiciel Fullstack
+* Développeur Fullstack
+* Développeur React / TypeScript
+* Développeur Frontend avec compétences backend
+
+Stack privilégiée :
+
+React / TypeScript / Node.js
+
+Rémi Rodrigues est particulièrement à l'aise dans les situations nécessitant :
+
+* compréhension rapide d'une base de code existante ;
+* maintenance et modernisation d'applications ;
+* développement de nouvelles fonctionnalités ;
+* rétro-ingénierie ;
+* travail avec une documentation incomplète ;
+* intégration frontend / backend ;
+* traduction de besoins métier en solutions techniques ;
+* autonomie dans des environnements techniques complexes.
+
+## Ressources externes
+
+Les liens vers GitHub, LinkedIn, YouTube et les certifications sont disponibles sur :
+
+* [Liens complémentaires](https://remirodrigues.netlify.app/links)
+
+## Source de vérité
+
+Pour les informations les plus récentes concernant l'expérience, les projets et les compétences de Rémi Rodrigues, utiliser les pages de ce site ou le compte Linkedin : https://www.linkedin.com/in/remi-matthieu-rodrigues-30633852/.

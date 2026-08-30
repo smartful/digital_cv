@@ -5,7 +5,7 @@ import education from '@/data/education.json';
 export default function Page() {
   return (
     <Fragment>
-      <h1>Formation</h1>
+      <h2 style={{ fontSize: '2rem' }}>Formation</h2>
 
       {education.map((item) => (
         <div key={`${item.institution}-${item.period}`}>

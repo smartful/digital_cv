@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css';
 export default function HomePage() {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Développeur React, TypeScript et Node.js orienté produit</div>
+      <h2 className={styles.title}>Développeur React, TypeScript et Node.js orienté produit</h2>
 
       <p>
         Ingénieur logiciel fullstack, je prends en charge l'intégration UI à partir de maquettes, la gestion rigoureuse

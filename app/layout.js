@@ -12,6 +12,10 @@ export const metadata = {
   },
   description:
     'CV digital de Rémi Rodrigues, développeur frontend et fullstack spécialisé React, TypeScript, Node.js et applications web.',
+  metadataBase: new URL('https://remirodrigues.netlify.app'),
+  alternates: {
+    canonical: '/',
+  },
   icons: { icon: '/favicon.png' },
 };
 

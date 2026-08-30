@@ -9,10 +9,10 @@ export const metadata = {
 export default function Page() {
   return (
     <Fragment>
-      <h1>Projets</h1>
+      <h2 style={{ fontSize: '2rem' }}>Projets</h2>
       <p>
-        Une première sélection de projets personnels à enrichir progressivement avec des captures,
-        cas d'usage et résultats.
+        Une première sélection de projets personnels à enrichir progressivement avec des captures, cas d'usage et
+        résultats.
       </p>
 
       {projects.map((project) => (

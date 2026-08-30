@@ -5,7 +5,7 @@ import experiences from '@/data/experiences.json';
 export default function Page() {
   return (
     <Fragment>
-      <h1>Expériences professionnelles</h1>
+      <h2 style={{ fontSize: '2rem' }}>Expériences professionnelles</h2>
 
       {experiences.map((experience) => (
         <div key={`${experience.company}-${experience.period}`}>
